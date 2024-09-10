@@ -1,0 +1,62 @@
+.chart-container {
+    max-width: 800px;
+    margin: 20px auto;
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-bar {
+    border-radius: 3px;
+    height: 30px;
+    min-width: 200px;
+}
+
+.navigation-bar .list-items {
+    list-style: none;
+    display: flex;
+    font-size: large;
+    position: relative;
+    color: #6719bd;
+    text-align: center;
+
+}
+
+.navigation-bar .list-items .item {
+    flex: 1 1 0px;
+    position: relative;
+    z-index: 2;
+}
+
+.navigation-bar .list-items .item .link {
+    display: inline-block; 
+    height: 4rem;
+    color: #6719bd;
+    margin-left: 2%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation-bar .list-items .item .link i {
+    font-size: 1.4rem;
+    transition: color 0.2s linear;
+}
+
+.navigation-bar .list-items .item.active .link {
+    color: black;
+    border-bottom: 2px solid black;
+    /* Add any other styles to indicate the active state */
+}
+

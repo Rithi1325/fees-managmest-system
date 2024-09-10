@@ -1,0 +1,17 @@
+**Database Name: feesys**
+
+**Developed by Hari Tharshini**
+
+**Recommended PHP Version 5.6.3 and 7.4.12**
+
+
+**Login Details**
+Admin
+
+Username: admin
+Password: ssbadmin
+
+User
+
+Username: office
+Password: ssboffice

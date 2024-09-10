@@ -1,0 +1,20 @@
+{
+    "name": "tharshini/ssb-fees-mg-system-php",
+    "autoload": {
+        "psr-4": {
+            "Tharshini\\SsbFeesMgSystemPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hari Tharshini T",
+            "email": "haritharshinit@example.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.5",
+        "ext-gd": "*",
+        "phpoffice/phpspreadsheet": "^1.29",
+        "phpmailer/phpmailer": "^6.5"
+    }
+}
